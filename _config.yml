@@ -1,7 +1,0 @@
-title: "Avigail Yariv"
-description: "Welcome to my personal site 🌸"
-theme: minima
-
-# Tell Jekyll to use your custom style
-include:
-  - assets
