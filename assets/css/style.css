@@ -1,40 +1,60 @@
-/* 🌸 Pastel Theme for GitHub Pages */
+/* 🌈 Gradient pastel background */
 body {
-  background-color: #fffafc;
+  background: linear-gradient(135deg, #fff0f5, #ffeef5, #e0f7fa);
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #444;
   line-height: 1.6;
   padding: 20px;
+  transition: background 1.5s ease; /* smooth transition */
+}
+
+header, footer {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(200,180,200,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header:hover, footer:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(200,180,200,0.3);
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(200, 180, 200, 0.3);
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+main:hover {
+  transform: translateY(-3px);
+}
+
+h1, h2, h3 {
+  color: #6b4c7d;
+  transition: color 0.5s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #a86ebf;
 }
 
 a {
   color: #a86ebf;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
+
 a:hover {
   color: #e493b3;
   text-decoration: underline;
-}
-
-header, footer {
-  background-color: #ffeef5;
-  padding: 15px;
-  border-radius: 12px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-h1, h2, h3 {
-  color: #6b4c7d;
-}
-
-main {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(200, 180, 200, 0.3);
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
 }
 
 nav a {
