@@ -1,0 +1,43 @@
+/* 🌸 Pastel Theme for GitHub Pages */
+body {
+  background-color: #fffafc;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #444;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+a {
+  color: #a86ebf;
+  text-decoration: none;
+}
+a:hover {
+  color: #e493b3;
+  text-decoration: underline;
+}
+
+header, footer {
+  background-color: #ffeef5;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  color: #6b4c7d;
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(200, 180, 200, 0.3);
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: bold;
+}
