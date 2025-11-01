@@ -23,8 +23,8 @@ title: Home
 
   <br>
 
-  🧬 [My Weizmann profile](https://weizmann.elsevierpure.com/en/persons/avigail-yariv)  
-  🧫 [Prof. Ada Yonath’s Lab](https://www.weizmann.ac.il/csb/faculty_pages/Yonath/)
+  🧬[My Weizmann profile](https://weizmann.elsevierpure.com/en/persons/avigail-yariv)
+  🧫[Prof. Ada Yonath’s Lab](https://www.weizmann.ac.il/csb/faculty_pages/Yonath/)
 </main>
 
 <footer>
